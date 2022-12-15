@@ -4,15 +4,31 @@ using UnityEngine;
 
 public class Exercise3 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float lower;
+
+    public float upper;
+
+    private float Vector;
+   
+    private void Start()
     {
+       Vector= RandomVector(lower, upper);
         
+        
+        
+        Debug.Log($"The random number between {lower} and {upper} is {Vector} ");
     }
 
-    // Update is called once per frame
-    void Update()
+    float RandomVector(float x,float y)
     {
+
         
+
+        return Random.Range (x,y);
     }
+
+
+
+
+
 }

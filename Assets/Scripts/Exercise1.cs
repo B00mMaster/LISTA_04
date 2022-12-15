@@ -3,40 +3,40 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Exercise1 : MonoBehaviour
-{
-    public int cash;
-
-    private int total;
-
-    private int newTotal;
-
-   /* private void Start()
-    {
-        MoneyBox(total, cash, newTotal);
-
-        NewBox();
-    
-    }
-
-
-    private void MoneyBox(int x,int y, int z)
-    {
-        if (x+(x+y)==z);
-
-        Debug.Log($"Ha depositado {x} euros. Tiene un total de {z}euros");
-
-
-        else if (x+(x+y)==z);
-        
+{   
+    //no se como hacer para actualizar money durante la ejecucción
     
     
-    }
+    
+    //moneyBox sera el valor que le demos a money más el antiguo valor dde moneyBox
+    private int moneyBox;
+   
+    public int money=2;
 
-    private void NewBox()
+
+    private void Start()
     {
+        //el nuevo valor de moneybox pasa a la función
+       IncreaseMoney(money);
 
+        Debug.Log($"You have inserted {money}$. You have {moneyBox}$ on your money box");
+    
     }
+    
+  void IncreaseMoney(int anynumber)
+    {
+        moneyBox += anynumber;
+        //devuelve la suma de los valores moneybox + money
+   
+    }
+    
 
-    */
+
+    
+    
+    
+
+    
+    
 
 }

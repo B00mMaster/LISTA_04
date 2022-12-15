@@ -4,15 +4,36 @@ using UnityEngine;
 
 public class Exercise2 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int cm;
+
+    private float inches;
+
+
+    private void Start()
     {
-        
+        Convert(cm);
     }
 
-    // Update is called once per frame
-    void Update()
+
+
+
+    private float Convert(int x)
     {
-        
+        inches = x*0.39f;
+
+        Debug.Log($"{x}cm equals {inches} inches");
+
+        return inches;
     }
+
+
+
+ 
+
+
+
+
+
+
+
 }

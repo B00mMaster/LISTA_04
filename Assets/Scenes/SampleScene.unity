@@ -313,6 +313,11 @@ GameObject:
   - component: {fileID: 1374347856}
   - component: {fileID: 1374347855}
   - component: {fileID: 1374347854}
+  - component: {fileID: 1374347858}
+  - component: {fileID: 1374347859}
+  - component: {fileID: 1374347860}
+  - component: {fileID: 1374347861}
+  - component: {fileID: 1374347862}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -398,3 +403,77 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1374347858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374347853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9991163d1ff86d7448b2ad844890856f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  money: 4
+--- !u!114 &1374347859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374347853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cc6bf9003e90834090fc8e6e8212135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cm: 9999
+--- !u!114 &1374347860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374347853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7762d046916407240a64068be1adf4c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lower: 5
+  upper: 5.1
+--- !u!114 &1374347861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374347853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eac88bc063fea564ebd064e75c54d06a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementos:
+  - tierra
+  - agua
+  - fuego
+  - aire
+--- !u!114 &1374347862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374347853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc2d4938242b1da4d925ccbae9d02cb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementos:
+  - tierra
+  - agua
+  - fuego
+  - aire
